@@ -6,7 +6,7 @@ from datetime import timezone
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.getenv("8337289528:AAFUHW_uWfllvE6aW0tkDqGN0pn7tIUA36g")  # берём токен из переменных окружения
+TOKEN = os.getenv("TELEGRAM_TOKEN")  
 
 logging.basicConfig(level=logging.INFO)
 
